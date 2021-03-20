@@ -33,7 +33,6 @@ class PadderView {
         }
 
         $output .= '</ul>';
-        $output .= '<hr>';
 
         require_once(ABSPATH.'wp-admin/includes/misc.php');
         show_message($new_page_result);
